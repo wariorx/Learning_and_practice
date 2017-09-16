@@ -1,1 +1,2 @@
 This code is meant to determine whether two words are Palindromes or not, making use of strings, chars, Circular queues, and stacks
+Note that this was made a couple years ago, and I am fully aware that there are many improvements that can be done to this code.
