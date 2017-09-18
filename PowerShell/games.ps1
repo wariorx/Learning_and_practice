@@ -2,21 +2,21 @@
 {
     Param ([bool]$smite, [bool]$over, [bool]$league, [bool]$steam, [bool] $ts, [bool] $disc, [bool] $skype)
 
-    if($smite -eq $true){Start-process "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Hi-Rez Studios\Smite"}
+    if($smite -eq $true){Start-process "C:\SmiteAddress\smite.exe"}
 
-    if($league -eq $true){Start-Process "C:\Riot Games\League of Legends\LeagueClient.exe"}
+    if($league -eq $true){Start-Process "C:\LoLAddress\lol.exe"}
 
-    if($over -eq $true){Start-process "C:\Program Files (x86)\Overwatch\Overwatch Launcher.exe" }
+    if($over -eq $true){Start-process "C:\OverwatchAddress\overwatch.exe" }
 
-    if($steam -eq $true){Start-process "C:\Program Files (x86)\Steam\Steam.exe"}
+    if($steam -eq $true){Start-process "C:\SteamAddress\Steam.exe"}
 
     #runs teamspeak if set to do so
-	if($ts -eq $true){Start-process "C:\Users\Raúl\AppData\Local\TeamSpeak 3 Client\ts3client_win64.exe"} 
+	if($ts -eq $true){Start-process "C:\ts3Client\ts3client_win64.exe"} 
 	
 	#runs discord if set to do so
-	if($disc -eq $true){Start-process "C:\Users\Raúl\AppData\Local\Discord\Update.exe"}
+	if($disc -eq $true){Start-process "C:\DiscordAddress\Update.exe"}
 	
 	#runs skype if set to do so
-	if($skype -eq $true){Start-process "C:\Program Files (x86)\Skype\Phone\Skype.exe"}
+	if($skype -eq $true){Start-process "C:\SkypeAddress\Skype.exe"}
 
 }#end of game script
