@@ -1,0 +1,280 @@
+/*Box*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* navigational bar */
+#header ul
+  {
+    /*width: 1200px;*/
+    width: 97.65%;
+    list-style-type: none;
+    /*margin-right: 100px;
+    margin-left: 100px;*/
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255,77,166);
+  }
+
+#header li
+  {
+    float: left;
+    display: inline;
+  }
+
+#header li a
+  {
+    display:block;
+    color:white;
+    padding: 14px 16px;
+    /*text-align:center; */
+  }
+
+#current /*current page indication */
+{
+  background-color: black;
+}
+
+#header li a:hover /*color on hover*/
+  {
+    background-color: rgb(179, 0, 89);
+  }
+
+
+/* End of naviational bar coding*/
+
+#header img /*code for the image on top of the page*/
+{
+      height:300px;
+      /*width: 1200px;*/
+      width: 97.65%;
+      /*margin-right: 100px;
+      margin-left: 100px;*/
+      display: block;
+}
+/*
+header
+{
+ width: 1400px;
+}
+
+main
+{
+  width: 1400px;
+}
+
+*/
+h1, h2, p
+{   /* float: left; */
+
+    color:rgb(255,77,166);
+}
+
+h1
+{
+  text-align: center;
+}
+
+
+/*css for the footer*/
+footer
+{
+  clear: both;
+  /*width: 1208px;*/
+  width: 97.65%;
+  background-color: rgb(179, 0, 89)
+}
+
+footer a, p
+{
+  color: white;
+}
+
+/*End of footer css*/
+
+/*CSS for the offiers images and descriptions in HOME*/
+#home p
+{
+  color: black;
+}
+
+#officers img
+{
+  float: left;
+  margin-right: 2.5%;
+  margin-bottom: 1%;
+}
+
+#president
+{
+  padding-top: 4%;
+}
+
+#officers h2
+{
+  padding-top: 5%;
+}
+
+#officers p
+{
+  padding-left:5%;
+}
+
+/*CSS for the images in GALLERY*/
+#gallery_page p
+{
+  color: black;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#gallery a:hover
+{
+  opacity: 0.5;
+}
+
+#gallery
+{
+  border-bottom: 5px solid pink;
+  /*width: 1208px;*/
+  width: 97.65%;
+}
+
+#gallery img
+{
+  width: 228px;
+  height: 119px;
+}
+
+#big
+{
+  padding-top: 10%;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px ;
+}
+
+
+/*CSS for the calendar in EVENT page*/
+/*.main ul
+{
+  list-style-type: none;
+}*/
+
+/* CSS for the calendar*/
+.month {
+  width:97.65%;
+  /*padding: 70px 25px;*/
+  background-color: rgb(179, 0, 89);
+
+}
+
+.month ul
+{
+  margin: 0 auto;
+  padding: 0;
+}
+
+.month ul li /*set color and spacing*/
+{
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.month li /*display arrows and month name horizontally*/
+{
+  display: inline-block;
+  text-align: center;
+}
+
+#name /*place name of the month in the center*/
+{
+  text-align: center;
+  padding-left: 45%;
+
+}
+
+#year /*place the year number on the center*/
+{
+  text-align: center;
+  padding-left: 45.5%;
+}
+
+/*CSS for previous botton*/
+#previous
+{
+  float: left;
+  padding-top: 10px
+}
+
+#previous:hover
+{
+    cursor:pointer;
+}
+
+/*CSS for the next buton*/
+#next
+{
+  float: right;
+  padding-top: 10px;
+}
+
+#next:hover
+{
+    cursor:pointer;
+}
+
+/*week days*/
+/*
+.weekdays li
+{
+  display: inline-block;
+  width: 12.6%;
+  color:gray;
+  text-align: center;
+}
+*/
+.days li
+{
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: rgb(255,77,166);
+}
+
+/*CSS for the forms in the CONTACT page */
+#lform {
+  float: left;
+  border-right: solid black;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+#rform
+{
+  float: right;
+  padding-right: 26%;
+  display: inline-block;
+  text-align: center;
+}
+
+#contact_main h2
+{
+  text-align: center;
+}
