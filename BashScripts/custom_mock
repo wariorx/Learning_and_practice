@@ -1,0 +1,15 @@
+#!/bin/sh
+#this should only change my mac if I'm logged in as root
+ID=`whoami`
+#echo $ID
+if [ "$ID" = "root" ]; then
+
+read -p "Enter the MAC address to copy: " MAC
+ifconfig eth0 down
+ifconfig eth0 hw ether $MAC 
+ifconfig eth0 up
+echo "New MAC should be:  " $MAC
+else
+echo "Nice try"
+
+fi
